@@ -283,35 +283,37 @@ body a:focus {
   font-size: 20px;
   line-height: 160%;
 }
-.plataform-solutions .plataform-solutions-flex .solution {
+.plataform-solutions .plataform-solutions-flex .solution1 {
   display: flex;
-  flex-direction: rowa;
+  flex-direction: row;
   -moz-column-gap: 2em;
        column-gap: 2em;
 }
-.plataform-solutions .plataform-solutions-flex .solution .solution-text h3 {
-  margin-bottom: 0.5em;
+.plataform-solutions .plataform-solutions-flex .solution1 .solution-text h3 {
+  margin-bottom: 2em;
   line-height: 160%;
 }
-.plataform-solutions .plataform-solutions-flex .solution .solution-text ul {
+.plataform-solutions .plataform-solutions-flex .solution1 .solution-text ul {
   padding-left: 1em;
 }
-.plataform-solutions .plataform-solutions-flex .solution .solution-text ul li {
+.plataform-solutions .plataform-solutions-flex .solution1 .solution-text ul li {
   margin-bottom: 0.5em;
 }
 .plataform-solutions .plataform-solutions-flex .solution2 {
-  margin-top: 4em;
+  margin-top: 5em;
   display: flex;
-  flex-direction: rowa;
+  flex-direction: row;
   -moz-column-gap: 2em;
        column-gap: 2em;
 }
 .plataform-solutions .plataform-solutions-flex .solution2 .solution-text h3 {
-  margin-bottom: 0.5em;
+  margin-bottom: 2em;
   line-height: 160%;
 }
 .plataform-solutions .plataform-solutions-flex .solution2 .solution-text ul {
   padding-left: 1em;
+  max-width: 300px;
+  width: 100%;
 }
 .plataform-solutions .plataform-solutions-flex .solution2 .solution-text ul li {
   margin-bottom: 0.5em;
