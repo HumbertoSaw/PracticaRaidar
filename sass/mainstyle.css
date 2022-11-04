@@ -252,6 +252,9 @@ body a:focus {
   width: 100%;
   line-height: 160%;
 }
+.first-ai .first-ai-flex .first-ai-caracteristicas #first-ai-text1 {
+  margin-top: 3em;
+}
 .first-ai .first-ai-flex .first-ai-caracteristicas .first-ai-img {
   max-width: 450px;
   width: 100%;
