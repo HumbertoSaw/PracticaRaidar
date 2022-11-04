@@ -303,6 +303,8 @@ body a:focus {
   padding-left: 1.5em;
 }
 .plataform-solutions .plataform-solutions-flex .solution .solution-text h3 {
+  max-width: 200px;
+  width: 100%;
   margin-bottom: 2em;
   line-height: 160%;
 }
@@ -332,5 +334,5 @@ body a:focus {
   line-height: 160%;
 }
 .footer .footer-flex .footer-columna img {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }/*# sourceMappingURL=mainstyle.css.map */
