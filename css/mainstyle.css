@@ -202,7 +202,6 @@ body a:focus {
 .hero {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
-  margin-bottom: 6em;
   background-color: #11174F;
 }
 .hero .hero-flex {
@@ -233,6 +232,10 @@ body a:focus {
   width: 100%;
 }
 
+.first-ai {
+  padding-top: 6em;
+  padding-bottom: 4em;
+}
 .first-ai h2 {
   color: #11174F;
   max-width: 800px;
@@ -241,7 +244,7 @@ body a:focus {
   margin: 0 auto 3em;
   text-align: center;
 }
-.first-ai .first-ai-caracteristicas:nth-child(2) {
+.first-ai .first-ai-caracteristicas:nth-child(3) {
   flex-direction: row-reverse;
   margin-top: 3em;
 }
@@ -273,8 +276,8 @@ body a:focus {
 
 .plataform-solutions {
   background-color: #F5F5F5;
-  padding-top: 10em;
-  padding-bottom: 10em;
+  padding-top: 8em;
+  padding-bottom: 8em;
 }
 .plataform-solutions .plataform-solutions-flex {
   color: #11174F;
@@ -340,7 +343,74 @@ body a:focus {
 }
 
 /* Large devices (large desktops, 1200px and up) */
+@media (min-width: 979px) and (max-width: 1200px) {
+  .raidar .hero .content .hero-flex .hero-text h1 {
+    font-size: 40px;
+  }
+  .raidar .hero .content .hero-flex .hero-text p {
+    font-size: 20px;
+  }
+  .raidar .hero .content .hero-flex .hero-img {
+    margin-left: 40px;
+  }
+}
 /* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .raidar .hero .content .hero-flex .hero-text h1 {
+    font-size: 40px;
+  }
+  .raidar .hero .content .hero-flex .hero-text p {
+    font-size: 20px;
+  }
+  .raidar .hero .content .hero-flex .hero-img {
+    margin-left: 30px;
+  }
+  .raidar .plataform-solutions {
+    background-color: #F5F5F5;
+    padding-top: 10em;
+    padding-bottom: 10em;
+  }
+  .raidar .plataform-solutions .plataform-solutions-flex {
+    color: #11174F;
+    display: flex;
+    flex-direction: column;
+    column-gap: 2em;
+  }
+  .raidar .plataform-solutions .plataform-solutions-flex .solution .solution-text {
+    margin-top: 2em;
+    max-width: 100%;
+    width: 100%;
+  }
+  .raidar .first-ai h2 {
+    font-size: 22px;
+  }
+  .raidar .first-ai .first-ai-caracteristicas {
+    column-gap: 2.5em;
+    margin-bottom: 4em;
+  }
+  .raidar .first-ai .first-ai-caracteristicas .first-ia-img {
+    max-width: 400px;
+    width: 100%;
+  }
+  .raidar .first-ai .first-ai-caracteristicas .first-ai-text h3 {
+    font-size: 20px;
+  }
+  .raidar .first-ai .first-ai-caracteristicas .first-ai-text p {
+    font-size: 18px;
+  }
+  .raidar .plataform-solutions {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+  .raidar .plataform-solutions .plataform-solutions-flex .solution-description h2 {
+    font-size: 22px;
+    line-height: 160%;
+  }
+  .raidar .plataform-solutions .plataform-solutions-flex .solution-description p {
+    font-size: 18px;
+    line-height: 160%;
+  }
+}
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   .raidar .hero .content .hero-flex .hero-text h1 {
@@ -350,29 +420,53 @@ body a:focus {
     font-size: 18px;
   }
   .raidar .hero .content .hero-flex .hero-img {
+    margin-left: 30px;
     max-width: 700px;
     width: 100%;
+  }
+  .raidar .first-ai h2 {
+    font-size: 22px;
+  }
+  .raidar .first-ai .first-ai-caracteristicas {
+    column-gap: 2.5em;
+    margin-bottom: 4em;
   }
   .raidar .first-ai .first-ai-caracteristicas .first-ia-img {
     max-width: 450px;
     width: 100%;
   }
   .raidar .first-ai .first-ai-caracteristicas .first-ai-text h3 {
-    font-size: 25px;
+    font-size: 18px;
   }
   .raidar .first-ai .first-ai-caracteristicas .first-ai-text p {
     font-size: 15px;
   }
+  .raidar .plataform-solutions {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
   .raidar .plataform-solutions .plataform-solutions-flex {
     column-gap: 3em;
+    flex-direction: column;
   }
   .raidar .plataform-solutions .plataform-solutions-flex .solution-description h2 {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 160%;
   }
   .raidar .plataform-solutions .plataform-solutions-flex .solution-description p {
     font-size: 15px;
     line-height: 160%;
+  }
+  .raidar .plataform-solutions .plataform-solutions-flex .solution .solution-text {
+    margin-top: 2em;
+    max-width: 100%;
+    width: 100%;
+  }
+  .raidar .plataform-solutions .plataform-solutions-flex .solution .solution-text h3 {
+    font-size: 18px;
+  }
+  .raidar .plataform-solutions .plataform-solutions-flex .solution .solution-text p {
+    font-size: 15px;
   }
   .raidar .plataform-solutions .plataform-solutions-flex .solution .solution-text ul li {
     font-size: 15px;
@@ -380,6 +474,19 @@ body a:focus {
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  .raidar .header .header-flex .header-contact {
+    max-width: 110px;
+    width: 100%;
+  }
+  .raidar .header .header-flex .header-contact a {
+    padding: 10px 0px;
+  }
+  .raidar .hero .content .hero-flex {
+    flex-direction: column;
+  }
+  .raidar .hero .content .hero-flex .hero-text {
+    text-align: center;
+  }
   .raidar .hero .content .hero-flex .hero-text h1 {
     font-size: 28px;
   }
@@ -390,10 +497,14 @@ body a:focus {
     max-width: 700px;
     width: 100%;
   }
-  .raidar .first-ai h2 {
-    font-size: 28px;
+  .raidar .first-ai {
+    padding-top: 4em;
+    padding-bottom: 2em;
   }
-  .raidar .first-ai .first-ai-caracteristicas:nth-child(2) {
+  .raidar .first-ai h2 {
+    font-size: 22px;
+  }
+  .raidar .first-ai .first-ai-caracteristicas:nth-child(3) {
     flex-direction: column-reverse;
   }
   .raidar .first-ai .first-ai-caracteristicas {
@@ -406,20 +517,26 @@ body a:focus {
     width: 100%;
   }
   .raidar .first-ai .first-ai-caracteristicas .first-ai-text {
+    max-width: 420px;
+    width: 100%;
     margin-top: 1em;
   }
   .raidar .first-ai .first-ai-caracteristicas .first-ai-text h3 {
-    font-size: 25px;
+    font-size: 18px;
   }
   .raidar .first-ai .first-ai-caracteristicas .first-ai-text p {
     font-size: 15px;
+  }
+  .raidar .plataform-solutions {
+    padding-top: 3em;
+    padding-bottom: 3em;
   }
   .raidar .plataform-solutions .plataform-solutions-flex {
     flex-direction: column;
     column-gap: 3em;
   }
   .raidar .plataform-solutions .plataform-solutions-flex .solution-description h2 {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 160%;
   }
   .raidar .plataform-solutions .plataform-solutions-flex .solution-description p {
@@ -427,6 +544,8 @@ body a:focus {
     line-height: 160%;
   }
   .raidar .plataform-solutions .plataform-solutions-flex .solution .solution-text {
+    max-width: 100%;
+    width: 100%;
     margin-top: 2em;
   }
   .raidar .plataform-solutions .plataform-solutions-flex .solution .solution-text ul li {
